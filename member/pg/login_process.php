@@ -7,7 +7,7 @@ if($id == '') {
     $arr = ['result' => 'empty_id'];
     die(json_encode($arr)); // { "result" => "empty_id" } 이렇게 보여지는거죠
 }
-
+// 암호화 된거는 복호화는 할수없고 비교를 할수있다 
 if($pw == '') {
     $arr = ['result' => 'empty_pw'];
     die(json_encode($arr)); // { "result" => "empty_id" } 이렇게 보여지는거죠
